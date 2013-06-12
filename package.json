@@ -11,7 +11,7 @@
     "glsl-tokenizer": "~0.0.8",
     "through": "~2.3.4"
   },
-  "devDependencies":
+  "devDependencies": {
     "tape": "~1.0.4"
   },
   "scripts": {
