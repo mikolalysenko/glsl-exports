@@ -1,0 +1,39 @@
+{
+  "name": "glsl-exports",
+  "version": "0.0.0",
+  "description": "Find all uniforms and attributes in a GLSL shader",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "glsl-parser": "~0.0.5",
+    "glsl-tokenizer": "~0.0.8",
+    "through": "~2.3.4"
+  },
+  "devDependencies":
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/glsl-exports.git"
+  },
+  "keywords": [
+    "glsl",
+    "uniform",
+    "attribute",
+    "variable",
+    "declaration",
+    "parser"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d3d567310898381ce1086feb36ed1bb5afdd6f3d",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/glsl-exports/issues"
+  }
+}
